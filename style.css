@@ -1,0 +1,167 @@
+body {
+    margin: o;
+    display: flex;
+    flex-direction: column;
+    min-height: fit-content;
+}
+
+/* Ini Navbar */
+nav {
+    background-color: #008C45;
+    font-family: fantasy;
+}
+.navbar-brand {
+    font-size: 25pt;
+}
+.navbar-collapse {
+    font-size: 15pt;
+}
+
+/* Ini home section */
+.homepage-section {
+    background-color: #F4F5F0;
+}
+.promo {
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    color: rgb(105, 105, 30);
+}
+.best-menu {
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    color: rgb(105, 105, 30);
+}
+.carousel {
+    position: relative;
+    display: block;
+    transform: translate(-505,-50%);
+}
+#carouselExampleDark p {
+    color: black;
+    font-family: monospace;
+    font-size: 15pt;
+}
+.carousel-indicators {
+    position: static;
+}
+
+/* Ini about us section */
+.section-about {
+    width: 100%;
+    padding: 0%;
+    height: 80vh;
+    background-color: #F4F5F0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: static;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-us {
+    position: static;
+    background: transparent;
+    border: 1px solid black;
+    border-top-left-radius: 10pt;
+    border-bottom-right-radius: 10pt;
+    padding: 3%;
+}
+
+/* Ini section menu */
+.section-menu {
+    width: 100%;
+    padding: 0%;
+    background-color: #F4F5F0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: static;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Ini section reservasi */
+.section-reservasi {
+    width: 100%;
+    padding: 0%;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: static;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 5pt;
+}
+form date {
+    width: 100%;
+    padding: 5px 15px;
+    height: 30px;
+    margin: 4px 0
+    border-radius: 3px;
+}
+form time {
+    width: 100%;
+    padding: 5px 15px;
+    height: 30px;
+    margin: 4px 0;
+    border-radius: 3px;
+}
+
+/* Ini footer */
+footer {
+    background-color: #CD212A;
+    display: flex;
+    margin: 0;
+    padding: 70px;
+    height: 70vh;
+    justify-content: center;
+}
+form h3{
+    padding: 10px 15px;
+    font-size: 16pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+form input {
+    width: 100%;
+    padding: 5px 15px;
+    height: 30px;
+    margin: 4px 0;
+    border: 1px #CD212A;
+    border-radius: 3px;
+    background-color: #F4F5F0;
+}
+form textarea{
+    width: 100%;
+    height: 150px;
+    padding: 5px 15px;
+    margin: 4px 0;
+    border: 1px #CD212A;
+    border-radius: 3px;
+    background-color: #F4F5F0;
+}
+form button {
+    margin-top: 5px;
+    border: none;
+    background: rgb(78, 68, 68);
+    color: #F4F5F0;
+    padding: 5px 15px;
+    width: 20%;
+    height: 35px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.icon {
+    justify-content: center;
+    align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.icon a{
+    padding: 10px;
+}
